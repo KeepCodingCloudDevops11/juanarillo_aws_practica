@@ -1,5 +1,5 @@
-resource "aws_s3_object" "index.html" {
-  bucket       = aws_s3_bucket.juanarillo_aws_practice.bucket
+resource "aws_s3_object" "index_html" {
+  bucket       = aws_s3_bucket.juanarillo-aws-practice.bucket
   key          = "index.html"
   content_type = "text/html"
   content      = <<EOF
@@ -27,6 +27,5 @@ resource "aws_s3_object" "index.html" {
   </body>
   </html>
   EOF
-  acl          = "public-read"
 
 }

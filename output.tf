@@ -1,3 +1,10 @@
 output "static_website_endpoint" {
-  value = aws_s3_bucket.juanarillo_aws_practice.website_endpoint
+  value = <<-EOT
+  Access
+  ------
+  To access to the static website, please visit the following URL:
+
+  'http://${aws_s3_bucket.juanarillo-aws-practice.website_endpoint}'
+
+    EOT
 }
