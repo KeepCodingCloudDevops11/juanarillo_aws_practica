@@ -14,4 +14,8 @@ resource "aws_s3_bucket_website_configuration" "juanarillo-aws-practice" {
     suffix = "index.html"
   }
 
+  error_document {
+    key = "error.html"
+  }
+
 }

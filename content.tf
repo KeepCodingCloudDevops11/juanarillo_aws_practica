@@ -11,3 +11,10 @@ resource "aws_s3_object" "style_css" {
   source       = "./site/style.css"
   content_type = "text/css"
 }
+
+resource "aws_s3_object" "error_html" {
+  bucket       = aws_s3_bucket.juanarillo-aws-practice.bucket
+  key          = "error.html"
+  source       = "./site/error.html"
+  content_type = "text/html"
+}
