@@ -31,13 +31,24 @@ juanarillo_aws_practica/
 
 Antes de ejecutar este proyecto, asegúrate de tener instalado:
 
+- Git
 - [Terraform](https://www.terraform.io/downloads.html)
 - Una cuenta en [AWS](https://aws.amazon.com/)
 - Configuración de credenciales de AWS en la terminal(CLI).
 
 ## Funcionamiento
 
+### **Clonar el repositorio**
+
+Clonar la url del repositorio en el lugar deseado.
+
+```sh
+git clone https://github.com/KeepCodingCloudDevops11/juanarillo_aws_practica.git
+```
+
 ### **Inicializar el Proyecto**
+
+En la terminal, cambiarse a la ruta donde se encuentre el proyecto.
 
 Ejecuta el siguiente comando para inicializar Terraform y descargar los módulos necesarios:
 
