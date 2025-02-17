@@ -74,11 +74,7 @@ terraform apply -auto-approve
 
 ### **Obtener la URL del Sitio Web**
 
-Al finalizar, Terraform mostrará la URL del sitio web desplegado. También puedes obtenerla ejecutando:
-
-```sh
-echo $(terraform output website_endpoint)
-```
+Al finalizar, Terraform mostrará la URL del sitio web desplegado.
 
 Si se intenta acceder a otra ruta o archivo dentro de la url, aparecerá una página de error.
 
