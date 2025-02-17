@@ -74,7 +74,7 @@ terraform apply -auto-approve
 
 ### **Obtener la URL del Sitio Web**
 
-Al finalizar, Terraform mostrará la URL del sitio web desplegado.
+Al finalizar, Terraform mostrará la URL del sitio web desplegado. Haciendo click sobre el enlace *(CMD+click)* , se abrirá el sitio.
 
 Si se intenta acceder a otra ruta o archivo dentro de la url, aparecerá una página de error.
 
